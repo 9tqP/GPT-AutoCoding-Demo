@@ -1,0 +1,18 @@
+examples:
+  defaultList:
+    summary: デフォルトユーザーリスト
+    value: 
+      [
+        { "id": 1, "name": "いちろう", "birthday": "2021-07-16" },
+        { "id": 2, "name": "じろう", "birthday": "2022-08-20" },
+        { "id": 3, "name": "さぶろう", "birthday": "2023-01-01"}
+      ]
+  errorUser001:
+    summary: idが不正なユーザー
+    value: [ { "id": "あ", "name": "いちろう", "birthday": "2021-07-16" } ]
+  errorUser002:
+    summary: nameが不正なユーザー
+    value: [ { "id": 1, "name": 123, "birthday": "2021-07-16" } ]
+  errorUser003:
+    summary: birthdayが不正なユーザー
+    value: [ { "id": 1, "name": "たろう", "birthday": 123 } ]
