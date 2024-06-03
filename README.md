@@ -20,7 +20,7 @@ prompt には下記を書き込んでいる
 
 ### Javascript コードの生成
 
-- GitHub Copilot, Cursor で `architecture_001.md` を開く。
+- Cursor で `architecture_001.md` を開く。
 - Chat で prompt_js_001 をメンション `@prompt_js_001.md`。
 - プロンプト実行で、GPT-4 で設計からコードが生成される。
 
@@ -80,9 +80,6 @@ age: 1
 --- test002 ---
 url: http://localhost:4010/
 error Error: ERROR
-    at UserService.fetch (/Users/hideyukimachida/git/Project/cording/demo/js/demo_001.js:52:13)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async main (/Users/hideyukimachida/git/Project/cording/demo/js/demo_001.js:126:5)
 ```
 
 ### Python デモ
